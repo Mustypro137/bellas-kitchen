@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bella's Little Kitchen — a family restaurant serving homemade favorites with fresh ingredients at 24 Garden Street, Riverside.">
+    <title>Bella's Little Kitchen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <nav class="nav container" aria-label="Main">
+            <a class="logo" href="#home">Bella's <span>Little</span> Kitchen</a>
+
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+                <span class="visually-hidden">Menu</span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero" id="home">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <h1>Good Food.<br>Happy Hearts.</h1>
+                    <p>Welcome to Bella's Little Kitchen, where every meal is made with love. Join us for fresh ingredients, homemade favorites, and the kind of food that brings people together.</p>
+                    <a class="btn btn-primary" href="#menu">View Our Menu</a>
+                </div>
+                <div class="hero-image">
+                    <img src="img/salad.jpg" width="1200" height="800"
+                         alt="A colourful bowl of fresh salad with tomatoes, avocado, chickpeas and greens">
+                </div>
+            </div>
+        </section>
+
+        <section class="section menu" id="menu" aria-labelledby="menu-title">
+            <div class="container">
+                <p class="eyebrow">Made fresh every day</p>
+                <h2 class="section-title" id="menu-title">Our Menu</h2>
+
+                <ul class="menu-grid">
+                    <li class="dish-card">
+                        <img src="img/creamy-pasta.jpg" width="1300" height="650" loading="lazy"
+                             alt="Creamy chicken pasta with ribbon noodles and fresh greens">
+                        <h3>Creamy Chicken Pasta</h3>
+                        <p>Tender chicken in a creamy garlic sauce.</p>
+                        <p class="price">$12.50</p>
+                    </li>
+                    <li class="dish-card">
+                        <img src="img/burger.jpg" width="1290" height="860" loading="lazy"
+                             alt="Beef burger with lettuce, tomato and onion on a wooden board">
+                        <h3>Classic Beef Burger</h3>
+                        <p>Grilled beef, fresh lettuce, tomato, and our house sauce.</p>
+                        <p class="price">$10.00</p>
+                    </li>
+                    <li class="dish-card">
+                        <img src="img/pizza.jpg" width="1024" height="1024" loading="lazy"
+                             alt="Margherita pizza topped with mozzarella and fresh basil leaves">
+                        <h3>Margherita Pizza</h3>
+                        <p>Tomato, mozzarella, fresh basil, and a crispy crust.</p>
+                        <p class="price">$11.50</p>
+                    </li>
+                    <li class="dish-card">
+                        <img src="img/chicken-bowl.jpg" width="1200" height="667" loading="lazy"
+                             alt="Glazed grilled chicken with rice and vegetables in a dark bowl">
+                        <h3>Grilled Chicken Bowl</h3>
+                        <p>Grilled chicken, seasoned rice, and fresh vegetables.</p>
+                        <p class="price">$13.00</p>
+                    </li>
+                    <li class="dish-card">
+                        <img src="img/salad.jpg" width="1200" height="800" loading="lazy"
+                             alt="Bowl of fresh salad with tomatoes, avocado and crisp greens">
+                        <h3>Garden Fresh Salad</h3>
+                        <p>Crisp greens, cucumber, tomato, and lemon dressing.</p>
+                        <p class="price">$8.50</p>
+                    </li>
+                    <li class="dish-card">
+                        <img src="img/lava-cake.jpg" width="1200" height="800" loading="lazy"
+                             alt="Chocolate lava cake with a melting centre and a scoop of vanilla ice cream">
+                        <h3>Chocolate Lava Cake</h3>
+                        <p>Warm chocolate cake with a soft, rich center.</p>
+                        <p class="price">$6.00</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section about" id="about" aria-labelledby="about-title">
+            <div class="container about-inner">
+                <img class="about-image" src="img/table-dinner.jpg" width="960" height="660" loading="lazy"
+                     alt="Warmly lit dining room with wooden tables, candles and plants on the walls">
+                <div class="about-text">
+                    <p class="eyebrow">Our story</p>
+                    <h2 class="section-title" id="about-title">About Us</h2>
+                    <p>Bella's Little Kitchen started with one simple idea: good food brings people together. Our family restaurant serves comforting favorites made with care, fresh ingredients, and a little extra love in every dish.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <p class="eyebrow">Come say hello</p>
+                <h2 class="section-title" id="contact-title">Contact</h2>
+
+                <div class="contact-inner">
+                    <div class="contact-details">
+                        <h3>Visit us</h3>
+                        <address>24 Garden Street, Riverside</address>
+
+                        <h3>Call us</h3>
+                        <p><a href="tel:+15550142836">(555) 014-2836</a></p>
+
+                        <h3>Opening hours</h3>
+                        <dl class="hours">
+                            <div><dt>Monday–Friday</dt><dd>11:00 AM–9:00 PM</dd></div>
+                            <div><dt>Saturday–Sunday</dt><dd>10:00 AM–10:00 PM</dd></div>
+                        </dl>
+                    </div>
+
+                    <form class="contact-form" id="contact-form" novalidate>
+                        <div class="field">
+                            <label for="name">Name</label>
+                            <input id="name" name="name" type="text" autocomplete="name" aria-describedby="name-error">
+                            <p class="field-error" id="name-error"></p>
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email" autocomplete="email" aria-describedby="email-error">
+                            <p class="field-error" id="email-error"></p>
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" aria-describedby="message-error"></textarea>
+                            <p class="field-error" id="message-error"></p>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Send Message</button>
+                        <p class="form-success" id="form-success" role="status"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p class="logo">Bella's <span>Little</span> Kitchen</p>
+            <p>24 Garden Street, Riverside · <a href="tel:+15550142836">(555) 014-2836</a></p>
+            <p>&copy; Bella's Little Kitchen</p>
+        </div>
+    </footer>
+</body>
+</html>
